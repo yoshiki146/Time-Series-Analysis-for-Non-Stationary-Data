@@ -8,7 +8,7 @@ The syllabus is available [here](https://kym-syllabus.ofc.kobe-u.ac.jp/kobe_syll
 The contents shared are Monte Carlo simulations under various conditions and some empirical applications using Python (Numpy, Pandas, Scikit-Learn, Statsmodels, Matplotlib, seaborn, etc.)
 
   
-[Monte Carlo Simulation on Spurious Regression.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Monte%20Carlo%20Simulation%20on%20Spurious%20Regression.ipynb)
+[Monte Carlo Simulation on Spurious Regression.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Monte%20Carlo%20Simulation%20on%20Spurious%20Regression.ipynb)  
 Monte Carlo simulation on Spurious Regression under; 
 * Random Walk v Random Walk ({x_t} and {y_t}, respectively)
 * Random Walk with Drift v Random Walk
