@@ -9,11 +9,18 @@ The contents shared are Monte Carlo simulations under various conditions and som
 
   
 [Monte Carlo Simulation on Spurious Regression.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Monte%20Carlo%20Simulation%20on%20Spurious%20Regression.ipynb)  
-Monte Carlo simulation on Spurious Regression under; 
-* Random Walk v Random Walk ({x_t} and {y_t}, respectively)
+MC simulation on Spurious Regression under; 
+* Random Walk v Random Walk ({$x_t$} and {$y_t$}, respectively)
 * Random Walk with Drift v Random Walk
 * Random Walk v Random Walk with Drift
 * Random Walk with Drift v Random Walk with Drift
 
   
-[Assignment1- Solution.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Assignment1-%20Solution.ipynb)
+[Assignment1- Solution.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Assignment1-%20Solution.ipynb)  
+* MC simulation for trend stationary time series under given conditions to see the rate of convergence of intercept and coefficient
+* Empirical application of detrending using US consumer price index retreived from FRED  
+
+  
+[Assignment 2.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Assignment%202.ipynb)  
+* Comparison of random walk with trend stationary under different sample size using Monte Carlo simulation  
+* Unit root test under $y_t = \alpha \phi y_{t-1} +\epsilon_t$, where $\alpha \ne 0$
