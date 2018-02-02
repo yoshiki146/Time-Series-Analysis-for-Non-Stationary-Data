@@ -23,4 +23,4 @@ MC simulation on Spurious Regression under;
   
 [Assignment 2.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Assignment%202.ipynb)  
 * Comparison of random walk with trend stationary under different sample size using Monte Carlo simulation  
-* Unit root test under $y_t = \alpha \phi y_{t-1} +\epsilon_t$, where $\alpha \ne 0$
+* Drawing distribution forthe unit root test under $y_t = \alpha \phi y_{t-1} +\epsilon_t$, where $\alpha \ne 0$, which converges in distribution to N(0,1)
