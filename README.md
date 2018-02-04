@@ -16,11 +16,14 @@ MC simulation on Spurious Regression under;
 * Random Walk with Drift v Random Walk with Drift
 
   
-[Assignment1- Solution.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Assignment1-%20Solution.ipynb)  
+[Detrending-Sim.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Detrending-Sim.ipynb)  
 * MC simulation for trend stationary time series under given conditions to see the rate of convergence of intercept and coefficient
+
+
+[Detrending_empirical](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Detrending_empirical.ipynb)
 * Empirical application of detrending using US consumer price index retreived from FRED  
 
   
-[Assignment 2.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/Assignment%202.ipynb)  
+[UnitRootSim.ipynb](https://github.com/yoshiki146/Time-Series-Analysis-for-Non-Stationary-Data/blob/master/UnitRootSim.ipynb)  
 * Comparison of random walk with trend stationary under different sample size using Monte Carlo simulation  
 * Drawing distribution forthe unit root test under $y_t = \alpha \phi y_{t-1} +\epsilon_t$, where $\alpha \ne 0$, which converges in distribution to N(0,1)
