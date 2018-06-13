@@ -1,6 +1,6 @@
 # Time-Series-Analysis-for-Non-Stationary-Data
 
-Master's course by Assistant Professor Motegi in third quartre, 2017, Kobe University.  
+Master's course by Associate Professor Motegi in third quartre, 2017, Kobe University.  
 The course covers theories of univariate and multivariate nonstationary time series analysis. (random walk, unit root, trend stationarity, spurious regression, cointegration, vector error correction model, etc.)
   
 The syllabus is available [here](https://kym-syllabus.ofc.kobe-u.ac.jp/kobe_syllabus/2017/44/data/2017_3E612.html)  
