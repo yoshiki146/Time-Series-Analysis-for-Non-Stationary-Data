@@ -9,11 +9,11 @@ size <- c(50,100,200) # sample sizes
 sigma <- sqrt(80) # standard diviation for epsilon
 alpha <- 2 # true intercept
 delta <- 2 # true coefficient
-estim <- matrix(NA, nrow=J, ncol=3*length(size)) # placeholder for estimated coefficient...
+estim <- matrix(NA, nrow=J, ncol=2*length(size)) # placeholder for estimated coefficient...
 # ... each row represents different monte carlo sample and each column for each coefficient... 
-# ... the number of columns are set to 3*3=9, since we have three metrics to estimate... 
-# ... (alphaHat, deltaHat and R^2) for three different sample sizes...
-# ... e.g. estim[100,7] represents the estimated alpha of 100th MC sample, where sample size is 200
+# ... the number of columns are set to 2*3=6, since we have two coefficients to estimate... 
+# ... (alphaHat and deltaHat) for three different sample sizes...
+# ... e.g. estim[100,5] represents the estimated alpha of 100th MC sample, where sample size is 200
 
 
 for (i in 1:length(size)){  # loop through different sample sizes
@@ -25,11 +25,10 @@ for (i in 1:length(size)){  # loop through different sample sizes
     y <- alpha + delta*t+eps # gen y accoding to the setting
     # estimate \hat{\aloha} and \hat{\delta}
     fit <- lm(y~t)
-    estim[j,(3*i-2):(3*i-1)] <- fit$coef # intercept and coef in column 1,2,4,5,7 and 8 
-    estim[j, 3*i] <- summary(fit)$r.squared # R squared for column 3,6 and 9
+    estim[j,(2*i-1):(2*i)] <- fit$coef # fill in estimated alphaHat and deltaHat
   }
 } # takes around 30 sec
 
-library(ggplot2)
+
 
 
