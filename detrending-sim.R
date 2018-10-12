@@ -45,3 +45,10 @@ fig2 <- ggplot(df, aes(deltas, fill=sampleSize)) +
   geom_histogram(bins=200) 
 Rmisc::multiplot(fig1, fig2, cols=1)
 
+# bias and variance
+trueCoef <- c(rep(c(alpha, delta), length(size)))
+bias <- apply(X=(estim-trueCoef), MARGIN=2, FUN=mean)
+avg <- apply(estim, 2, mean)
+variance <- apply((estim-avg)^2, 2, mean)
+mse <- bias^2 + variance
+
